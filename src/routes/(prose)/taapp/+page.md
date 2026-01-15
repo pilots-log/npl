@@ -1,11 +1,16 @@
+<script>
+    import { getCount } from "$lib/remote/taappcount.remote.js"
+    let count = await getCount()
+</script>
+
 # THE ANTI-ANTI-PHONE PETITION (TAAPP)
 
 <div class="text-center! text-amber-200">Petition for Governor-Elect Abigail Spanberger to replace the strategy set in
-place by Executive Order 33-2024</div>
+place by Executive Order 33-2024<br/><span class="font-bold text-xl">{count} Signature{count == 1?'':'s'}</span></div>
 
-&emsp;&emsp;Since January 1st, 2025, due to Glenn Youngkin’s 33rd Executive
+&emsp;&emsp;Since January 1st, 2025, due to Glenn Youngkin's 33rd Executive
 Order, cellular devices have been banned from school buildings statewide. On the
-surface level, this doesn’t seem like a bad idea, but it is not the solution.
+surface level, this doesn't seem like a bad idea, but it is not the solution.
 This rule is starting to hurt students more than help them. Cell phones are a
 great invention and should be integrated into education, rather than treated as
 a knowledge weapon.
@@ -52,7 +57,7 @@ students are caught with devices. Staff members commonly label phones as
 “illegal” or “contraband,” which conditions students to associate a tool that
 they use in their everyday lives with criminality. Rather than discouraging
 phone use, this is starting to cause students to disregard the law entirely. A
-common response to “It's illegal to have your phone out” is, “Okay? You can’t
+common response to “It's illegal to have your phone out” is, “Okay? You can't
 arrest me for it!” Over time, this could desensitize students to rule-breaking
 and lead to law violations.
 
@@ -63,7 +68,7 @@ like running a business or having a job. Some students depend on their phones
 for safety, using location services so their loved ones can watch over them from
 afar.
 
-This petition isn’t just a “please let me doomscroll in the back of the class
+&emsp;&emsp;This petition isn't just a “please let me doomscroll in the back of the class
 again” type of thing; this is a true, well-thought-out execution of student
 activism, so, of course, a set of solutions has been brainstormed:
 
@@ -79,16 +84,17 @@ activism, so, of course, a set of solutions has been brainstormed:
   - Students who get in trouble for excessive use should be reminded that help
     exists
 - **End multi-day phone confiscation**
-  - Replace it with interventions, education, and better consequences that do
-    not compromise the safety of students.
+  - Replace it with interventions, education, and more effective consequences that do not compromise student safety
 
-This generation of students was raised on phones. For a lot of us, Our first
+&emsp;&emsp;This generation of students was raised on phones. For a lot of us, our first
 moments were documented on a phone camera. Some of us were handed a phone at
 four years old, and it's been an important part of our lives since. Completely
 and broadly banning phones is not an appropriate way to solve _any_ issues. The
 policy on phones in schools should bring out the good in phones, while
 minimizing the bad. Additionally, banning phone use does not improve the
-mental-health effects of social media. Instead, there should be policies and
+mental health effects of social media. Instead, there should be policies and
 resources set in place to bring more good out of social media than bad.
 
-<button class="btn btn-disabled uppercase">Sign (soon)</button>
+<a class="btn btn-primary uppercase btn-block" href="/taapp/sign"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-[1.2em]">
+<path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+</svg> Sign</a>
