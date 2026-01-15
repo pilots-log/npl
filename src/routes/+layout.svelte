@@ -44,7 +44,7 @@
 		<a href="/c/pilot-report" class="uppercase btn btn-xs">pilot report</a>
 	</div>
 
-	<main class="grow overflow-x-clip overflow-y-scroll">
+	<main class="grow overflow-x-clip overflow-y-scroll pt-2">
 		{@render children?.()}
 	</main>
 </div>
