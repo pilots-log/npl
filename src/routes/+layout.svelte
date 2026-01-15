@@ -15,9 +15,10 @@
 <svelte:head>
 	<link rel="icon" href={favicon} />
 	<title>Pilots' Log {page.data.title ? `| ${page.data.title}`:""}</title>
+	<meta name="theme-color" content="#0000ff">
 </svelte:head>
 
-<div class="flex h-screen flex-col">
+<div class="flex h-screen flex-col overflow-hidden">
 	<div
 		class={[
 			'flex items-center gap-x-2 bg-[#0000ff] px-4 font-extrabold text-white transition-all',
@@ -44,7 +45,7 @@
 		<a href="/c/pilot-report" class="uppercase btn btn-xs">pilot report</a>
 	</div>
 
-	<main class="grow overflow-x-clip overflow-y-scroll pt-2">
+	<main class="grow overflow-x-clip overflow-y-scroll pt-2 pb-6">
 		{@render children?.()}
 	</main>
 </div>

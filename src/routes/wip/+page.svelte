@@ -25,5 +25,5 @@
         {@render link("nhs.npsk12.com", "https://nhs.npsk12.com/")}
     </div>
     <a href="/#" class="btn mt-2 cursor-not-allowed opacity-30">Admin Login</a>
-    <div class="absolute bottom-5 opacity-30">Run by a student at Norview High School</div>
+    <div class="absolute bottom-5 opacity-60">Looking for TAAPP?: <a href="/taapp" class="underline">here</a></div>
 </main>
