@@ -16,6 +16,13 @@
 	<link rel="icon" href={favicon} />
 	<title>Pilots' Log {page.data.title ? `| ${page.data.title}`:""}</title>
 	<meta name="theme-color" content="#0000ff">
+
+	{#if page.data.description}
+	<meta name="description" content={page.data.description}>
+		<meta name="og:description" content={page.data.description}>
+		<meta name="twitter:description" content={page.data.description}>
+
+	{/if}
 </svelte:head>
 
 <div class="flex h-screen flex-col overflow-hidden">

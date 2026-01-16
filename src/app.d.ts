@@ -8,6 +8,7 @@ declare global {
       showHome: boolean;
       title: string;
       isLimited: boolean;
+      description?: string;
     }
     // interface PageState {}
     // interface Platform {}
