@@ -23,16 +23,16 @@ also reduce costs for schools if students bring their own devices.
 
 &emsp;&emsp;Moreover, the policy was implemented without giving students
 accessible resources to help with the dopamine addiction caused by phones.
-Students are also subconsciously turning to worse addictions—like vaping and
-drugs—in order to cope with the genuine withdrawals that they experience.
-History has shown us that prohibition without support is destined to fail. For
-example, the 18th Amendment intended to decrease the consumption of alcohol, but
-in reality, it worsened the alcohol problem by creating a hidden market and
-increasing crime. While reported cyberbullying and sexual harassment may have
-decreased since the implementation of the new law, this does not indicate that
-the incidents are less frequent; similar to those harmed during prohibition,
-students may be afraid to report them due to fear of being punished for using
-their phones.
+Students are also subconsciously turning to worse addictions&mdash;like vaping
+and drugs&mdash;in order to cope with the genuine withdrawals that they
+experience. History has shown us that prohibition without support is destined to
+fail. For example, the 18th Amendment intended to decrease the consumption of
+alcohol, but in reality, it worsened the alcohol problem by creating a hidden
+market and increasing crime. While reported cyberbullying and sexual harassment
+may have decreased since the implementation of the new law, this does not
+indicate that the incidents are less frequent; similar to those harmed during
+prohibition, students may be afraid to report them due to fear of being punished
+for using their phones.
 
 &emsp;&emsp;The law is more restrictive than it needs to be in order to serve
 its purpose. Many students have free time in a study block or after a test and
@@ -68,9 +68,9 @@ like running a business or having a job. Some students depend on their phones
 for safety, using location services so their loved ones can watch over them from
 afar.
 
-&emsp;&emsp;This petition isn't just a “please let me doomscroll in the back of the class
-again” type of thing; this is a true, well-thought-out execution of student
-activism, so, of course, a set of solutions has been brainstormed:
+&emsp;&emsp;This petition isn't just a “please let me doomscroll in the back of
+the class again” type of thing; this is a true, well-thought-out execution of
+student activism, so, of course, a set of solutions has been brainstormed:
 
 - **Narrow phone restrictions down to instructional time**
   - Prohibit phone use during instruction or work time
@@ -84,14 +84,15 @@ activism, so, of course, a set of solutions has been brainstormed:
   - Students who get in trouble for excessive use should be reminded that help
     exists
 - **End multi-day phone confiscation**
-  - Replace it with interventions, education, and more effective consequences that do not compromise student safety
+  - Replace it with interventions, education, and more effective consequences
+    that do not compromise student safety
 
-&emsp;&emsp;This generation of students was raised on phones. For a lot of us, our first
-moments were documented on a phone camera. Some of us were handed a phone at
-four years old, and it's been an important part of our lives since. Completely
-and broadly banning phones is not an appropriate way to solve _any_ issues. The
-policy on phones in schools should bring out the good in phones, while
-minimizing the bad. Additionally, banning phone use does not improve the
+&emsp;&emsp;This generation of students was raised on phones. For a lot of us,
+our first moments were documented on a phone camera. Some of us were handed a
+phone at four years old, and it's been an important part of our lives since.
+Completely and broadly banning phones is not an appropriate way to solve _any_
+issues. The policy on phones in schools should bring out the good in phones,
+while minimizing the bad. Additionally, banning phone use does not improve the
 mental health effects of social media. Instead, there should be policies and
 resources set in place to bring more good out of social media than bad.
 
