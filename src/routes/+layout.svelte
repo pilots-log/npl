@@ -14,14 +14,13 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<title>Pilots' Log {page.data.title ? `| ${page.data.title}`:""}</title>
-	<meta name="theme-color" content="#0000ff">
+	<title>Pilot's Log {page.data.title ? `| ${page.data.title}` : ''}</title>
+	<meta name="theme-color" content="#0000ff" />
 
 	{#if page.data.description}
-	<meta name="description" content={page.data.description}>
-		<meta name="og:description" content={page.data.description}>
-		<meta name="twitter:description" content={page.data.description}>
-
+		<meta name="description" content={page.data.description} />
+		<meta name="og:description" content={page.data.description} />
+		<meta name="twitter:description" content={page.data.description} />
 	{/if}
 </svelte:head>
 
@@ -30,9 +29,12 @@
 		class={[
 			'flex items-center gap-x-2 bg-[#0000ff] px-4 font-extrabold text-white transition-all',
 			{ 'h-12': page.data.showHome, 'h-10': !page.data.showHome },
-			{ '*:disabled *:pointer-events-none cursor-not-allowed opacity-30 select-none': !!page.data.isLimited }
+			{
+				'*:disabled cursor-not-allowed opacity-30 select-none *:pointer-events-none':
+					!!page.data.isLimited
+			}
 		]}
-		title="{page.data.isLimited ? "The site is disabled." : ""}"
+		title={page.data.isLimited ? 'The site is disabled.' : ''}
 	>
 		<a
 			href="/"
@@ -41,7 +43,11 @@
 				{ 'btn-md': page.data.showHome, 'btn-sm': !page.data.showHome }
 			]}
 		>
-			<img src={favicon} class={["transition-all", { "h-6": page.data.showHome, "h-5": !page.data.showHome }]} alt="" />
+			<img
+				src={favicon}
+				class={['transition-all', { 'h-6': page.data.showHome, 'h-5': !page.data.showHome }]}
+				alt=""
+			/>
 			<span
 				class={[
 					'uppercase transition-all',
@@ -49,7 +55,7 @@
 				]}>pilot's log</span
 			>
 		</a>
-		<a href="/c/pilot-report" class="uppercase btn btn-xs">pilot report</a>
+		<a href="/c/pilot-report" class="btn uppercase btn-xs">pilot report</a>
 	</div>
 
 	<main class="grow overflow-x-clip overflow-y-scroll pt-2 pb-6">

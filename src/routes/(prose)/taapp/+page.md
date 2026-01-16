@@ -5,7 +5,7 @@
 
 # THE ANTI-ANTI-PHONE PETITION (TAAPP)
 
-<div class="text-center! text-amber-200">Petition for Governor-Elect Abigail Spanberger to replace the strategy set in
+<div class="text-center! text-amber-200">Petition for Governor Abigail Spanberger to replace the strategy set in
 place by Executive Order 33-2024<br/><span class="font-bold text-xl">{count} Signature{count == 1?'':'s'}</span></div>
 
 &emsp;&emsp;Since January 1st, 2025, due to Glenn Youngkin's 33rd Executive
