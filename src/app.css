@@ -42,3 +42,7 @@
 html, body {
   @apply overflow-hidden;
 }
+
+@utility link {
+  @apply transition-[text-underline-offset] underline underline-offset-1 hover:underline-offset-2
+}

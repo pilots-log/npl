@@ -2,8 +2,8 @@
 	let { children } = $props();
 </script>
 
-<div class="md:mx-20 mx-2 flex items-center">
-	<div class="prose max-w-full">
+<div class="mx-2 flex justify-center md:mx-20">
+	<div class="prose">
 		{@render children()}
 	</div>
 </div>

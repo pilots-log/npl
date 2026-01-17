@@ -58,7 +58,7 @@
 		<a href="/c/pilot-report" class="btn uppercase btn-xs">pilot report</a>
 	</div>
 
-	<main class="grow overflow-x-clip overflow-y-scroll pt-2 pb-6">
+	<main class="grow overflow-x-clip overflow-y-scroll pt-8 pb-24">
 		{@render children?.()}
 	</main>
 </div>

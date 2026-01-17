@@ -10,7 +10,7 @@
     	{@render link(email, `mailto:${email}`)}
     {/snippet}
     {#snippet link(name: string, link: string)}
-        <a class="text-blue-500 transition-[text-underline-offset] underline underline-offset-1 hover:underline-offset-2" href="{link}">{name}</a>
+        <a class="text-blue-500 link" href="{link}">{name}</a>
     {/snippet}
     <h1 class="mt-4">contact:</h1>
     <div class="md:grid md:grid-cols-2 flex flex-col *:even:opacity-80">
@@ -25,5 +25,5 @@
         {@render link("nhs.npsk12.com", "https://nhs.npsk12.com/")}
     </div>
     <a href="/#" class="btn mt-2 cursor-not-allowed opacity-30">Admin Login</a>
-    <div class="absolute bottom-5 opacity-60">Looking for TAAPP?: <a href="/taapp" class="underline">here</a></div>
+    <div class="absolute bottom-5 opacity-60">Looking for TAAPP?: <a href="/taapp" class="link">here</a></div>
 </main>
