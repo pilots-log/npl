@@ -1,5 +1,5 @@
-import { redirect } from "@sveltejs/kit";
+import { redirect } from '@sveltejs/kit';
 
 export async function GET() {
-    redirect(302, "/taapp")
+	redirect(302, '/taapp');
 }

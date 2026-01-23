@@ -45,17 +45,35 @@
 		>
 			<img
 				src={favicon}
-				class={['transition-all', { 'h-6': page.data.showHome, 'h-5': !page.data.showHome }]}
+				class={[
+					'transition-all',
+					{
+						'h-6': page.data.showHome,
+						'h-5': !page.data.showHome
+					}
+				]}
 				alt=""
 			/>
 			<span
 				class={[
 					'uppercase transition-all',
-					{ 'text-2xl': page.data.showHome, 'hidden text-xl': !page.data.showHome }
+					{
+						'text-2xl': page.data.showHome,
+						'hidden text-xl': !page.data.showHome
+					}
 				]}>pilot's log</span
 			>
+			<span
+				class={[
+					'uppercase transition-all',
+					{
+						'hidden text-2xl': page.data.showHome,
+						'text-xl': !page.data.showHome
+					}
+				]}>home</span
+			>
 		</a>
-		<a href="/c/pilot-report" class="btn uppercase btn-xs">pilot report</a>
+		<a href="/pages/pilot-report" class="btn uppercase btn-xs">pilot report</a>
 	</div>
 
 	<main class="grow overflow-x-clip overflow-y-scroll pt-8 pb-24">

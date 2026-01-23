@@ -5,8 +5,7 @@
 {@render children()}
 
 <style lang="postcss">
-
-    @reference "tailwindcss";
+	@reference "tailwindcss";
 	:global {
 		h1 {
 			@apply max-md:text-center;
