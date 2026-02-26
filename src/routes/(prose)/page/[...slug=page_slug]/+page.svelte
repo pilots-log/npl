@@ -54,7 +54,7 @@
 		</header>
 
 		<!-- Article Content -->
-		<main class="prose prose-invert max-w-none">
+		<main class="prose prose-invert prose-blockquote:font-normal! max-w-none">
 			<page.component />
 		</main>
 	</div>

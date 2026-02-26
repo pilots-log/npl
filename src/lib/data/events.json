@@ -1,0 +1,38 @@
+{
+    "upcomingMeetingDates": [],
+    "upcomingEvents": [],
+    "attendanceRecoveryReminder": {
+        "title": "Attendance Recovery Reminder",
+        "lines": [
+            "After school on Mon & Wed at 2:10-5:10pm",
+            "Selected Saturdays at 8:00-11:00am"
+        ]
+    },
+    "varsityGames": [
+        {
+            "title": "Boys Soccer",
+            "startsAt": "2026-03-25T21:30:00.000Z",
+            "location": "Manor HS"
+        },
+        {
+            "title": "Softball",
+            "startsAt": "2026-03-27T20:30:00.000Z",
+            "location": "Norview HS"
+        },
+        {
+            "title": "Girls Soccer",
+            "startsAt": "2026-03-25T20:00:00.000Z",
+            "location": "Manor HS"
+        },
+        {
+            "title": "Boys Tennis",
+            "startsAt": "2026-03-17T19:30:00.000Z",
+            "location": "Norview HS"
+        },
+        {
+            "title": "Girls Tennis",
+            "startsAt": "2026-03-17T19:30:00.000Z",
+            "location": "Granby HS"
+        }
+    ]
+}

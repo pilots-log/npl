@@ -10,7 +10,7 @@ export const Metadata = z.object({
 	author: z.string().optional()
 });
 
-const content_glob = import.meta.glob('./**/*.svx', {
+const content_glob = import.meta.glob('./**/*.md', {
 	eager: false,
 	base: './content/'
 });
@@ -19,7 +19,7 @@ export const content = new Map(
 	(
 		await Promise.all(
 			Object.entries(content_glob).map(
-				async ([x, y]) => [x.substring(2).slice(0, -4), await y()] as const
+				async ([x, y]) => [x.substring(2).slice(0, -3), await y()] as const
 			)
 		)
 	).map(([name, m]) => [

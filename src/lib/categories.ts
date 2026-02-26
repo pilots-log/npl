@@ -19,6 +19,10 @@ const categories = {
 	'pop-culture': {
 		name: 'Pop Culture',
 		description: ''
+	},
+	'lifestyle': {
+		name: "Lifestyle",
+		description: ""
 	}
 } as const satisfies Record<string, Category>;
 

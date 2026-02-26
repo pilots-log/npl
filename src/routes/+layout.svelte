@@ -38,6 +38,11 @@
 				>
 			{/if}
 			<a
+				href="/events"
+				class="btn btn-ghost btn-sm uppercase text-white/90 hover:bg-white/10 hover:text-white"
+				>Events</a
+			>
+			<a
 				href="/pages/pilot-report"
 				class="btn btn-ghost btn-sm uppercase text-white/90 hover:bg-white/10 hover:text-white"
 				>Pilot Report</a
