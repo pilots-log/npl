@@ -1,3 +1,5 @@
+export const prerender = false;
+
 export function load() {
 	return {
 		title: 'THE ANTI-ANTI-PHONE PETITION',

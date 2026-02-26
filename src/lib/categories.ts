@@ -6,7 +6,7 @@ interface Category {
 const categories = {
 	'pilot-report': {
 		name: 'Pilot Report',
-		description: "Regularly scheduled updates from the Pilot's Log team"
+		description: "Information from the Pilot's Log team about the school."
 	},
 	advice: {
 		name: 'Advice',

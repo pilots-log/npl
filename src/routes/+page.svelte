@@ -3,36 +3,84 @@
 	let { categoryPreviews } = data;
 </script>
 
-<div class="mx-auto max-w-6xl px-4 py-6">
-	<h1 class="mb-8 text-3xl font-extrabold tracking-tight">Latest from Pilot's Log</h1>
-	<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+<div class="mx-auto max-w-5xl px-4 py-10">
+	<!-- Masthead -->
+	<div class="mb-10 border-b border-base-content/15 pb-8 text-center">
+		<h1 class="text-5xl font-black uppercase tracking-widest sm:text-6xl">Pilot's Log</h1>
+		<p class="mt-2 text-sm uppercase tracking-widest text-base-content/50">
+			Norview High School's Official School Newspaper
+		</p>
+		<p class="mt-1 text-xs text-base-content/30">
+			{new Date().toLocaleDateString('en-US', {
+				weekday: 'long',
+				year: 'numeric',
+				month: 'long',
+				day: 'numeric'
+			})}
+		</p>
+	</div>
+
+	<!-- Category Cards -->
+	<div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
 		{#each categoryPreviews as cat}
-			<div class="flex flex-col rounded-lg bg-base-200 overflow-hidden">
-				<div class="px-4 pt-4 pb-2">
-					<a class="link text-xl font-bold" href={`/pages/${cat.slug}`}>{cat.name}</a>
+			<article
+				class="group flex flex-col overflow-hidden rounded-lg border border-base-content/10 bg-base-200 transition-all hover:border-base-content/25"
+			>
+				<!-- Category Header -->
+				<div class="border-b border-base-content/10 px-4 py-3">
+					<a
+						href="/pages/{cat.slug}"
+						class="text-xs font-extrabold uppercase tracking-widest text-[#4488ff] transition-colors hover:text-blue-300"
+					>
+						{cat.name}
+					</a>
 					{#if cat.description}
-						<p class="mt-1 text-sm text-base-content/60">{cat.description}</p>
+						<p class="mt-0.5 line-clamp-1 text-xs text-base-content/40">{cat.description}</p>
 					{/if}
 				</div>
-				<div class="m-3 mt-1 flex flex-col gap-y-2 rounded-md bg-base-300 p-4 grow">
+
+				<!-- Latest Article -->
+				<div class="flex grow flex-col gap-2 p-4">
 					{#if cat.latest && cat.latestId}
-						<a href={`/page/${cat.latestId}`} class="link text-base font-semibold leading-snug">
+						<a
+							href="/page/{cat.latestId}"
+							class="font-bold leading-snug transition-colors hover:text-[#4488ff]"
+						>
 							{cat.latest.metadata.title}
 						</a>
-						{#if cat.latest.metadata.author}
-							<span class="text-xs italic text-base-content/70">by {cat.latest.metadata.author}</span>
-						{/if}
 						{#if cat.latest.metadata.description}
-							<p class="text-sm text-base-content/80">{cat.latest.metadata.description}</p>
+							<p class="line-clamp-3 text-sm text-base-content/60">
+								{cat.latest.metadata.description}
+							</p>
 						{/if}
-						<span class="mt-auto pt-2 text-xs text-base-content/50">
-							{new Date(cat.latest.metadata.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
-						</span>
+						<div class="mt-auto flex items-end justify-between pt-3">
+							{#if cat.latest.metadata.author}
+								<span class="text-xs italic text-base-content/40"
+									>{cat.latest.metadata.author}</span
+								>
+							{/if}
+							<span class="ml-auto text-xs text-base-content/30">
+								{new Date(cat.latest.metadata.date).toLocaleDateString('en-US', {
+									month: 'short',
+									day: 'numeric',
+									year: 'numeric'
+								})}
+							</span>
+						</div>
 					{:else}
-						<span class="italic text-base-content/50 text-sm">Nothing here yet</span>
+						<p class="text-sm italic text-base-content/30">Nothing here yet</p>
 					{/if}
 				</div>
-			</div>
+
+				<div class="border-t border-base-content/10 px-4 py-2.5">
+					<a
+						href="/pages/{cat.slug}"
+						class="text-xs font-semibold text-base-content/40 transition-colors hover:text-base-content/80"
+					>
+						All articles →
+					</a>
+				</div>
+			</article>
 		{/each}
 	</div>
 </div>

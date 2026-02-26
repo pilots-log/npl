@@ -3,6 +3,10 @@ import { content } from '$lib/content';
 
 const PAGE_SIZE = 15;
 
+export function entries() {
+	return Array.from(categories.keys()).map((category) => ({ category }));
+}
+
 function paginate<T>(arr: T[], page_size: number, page_number: number): T[] {
 	return arr.slice((page_number - 1) * page_size, page_number * page_size);
 }
@@ -16,7 +20,6 @@ export async function load({ url, params }) {
 		.toArray()
 		.sort((a, b) => b.page.metadata.date - a.page.metadata.date);
 	const pages = paginate(sorted_page_array, PAGE_SIZE, page);
-	console.log(pages);
 
 	return {
 		pages: JSON.parse(JSON.stringify(pages)) as typeof pages,
