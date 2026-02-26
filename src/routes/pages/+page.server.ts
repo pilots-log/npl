@@ -7,9 +7,9 @@ function paginate<T>(arr: T[], page_size: number, page_number: number): T[] {
 }
 
 export async function load({ url }) {
-	let pageNum = 1;
+	let page = 1;
 	try {
-		pageNum = parseInt(url.searchParams.get('page') ?? '') || 1;
+		page = parseInt(url.searchParams.get('page') ?? '') || 1;
 	} catch {
 		// prerendering context – default to page 1
 	}

@@ -12,7 +12,12 @@ function paginate<T>(arr: T[], page_size: number, page_number: number): T[] {
 }
 
 export async function load({ url, params }) {
-	const page = parseInt(url.searchParams.get('page')) || 1;
+	let page = 1;
+	try {
+		page = parseInt(url.searchParams.get('page') ?? '') || 1;
+	} catch {
+		// prerendering context – default to page 1
+	}
 	const sorted_page_array = content
 		.entries()
 		.filter((v) => v[1].category == params.category)
