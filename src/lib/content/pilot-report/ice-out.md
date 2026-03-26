@@ -6,7 +6,7 @@ date: 19-Feb-2026
 published: true
 ---
 
-![A norview student holding a sign reading 'SAVE THE SEXY HISPANICS. ICE OUT'](/images/pilot-report/ice-out/IMG_8028.jpg)
+![A norview student holding a sign reading 'I Prefer Crushed ICE.'](/images/pilot-report/ice-out/IMG_8030.jpg)
 
 On Wednesday, February 18th, Norview High School students held a walkout to protest Immigration and Customs Enforcement (ICE). Walkouts also occurred at Maury, Granby, Booker T. Washington, and Lake Taylor High Schools. 
  
