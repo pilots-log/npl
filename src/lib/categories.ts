@@ -23,6 +23,10 @@ const categories = {
 	'lifestyle': {
 		name: "Lifestyle",
 		description: ""
+	},
+	'student-spotlight': {
+		name: "Student spotlight",
+		description: "Shout-outs to norview students' creations & accomplishments"
 	}
 } as const satisfies Record<string, Category>;
 
